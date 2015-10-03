@@ -1,0 +1,343 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+h1{
+  font-family: "ZnikomitSC", monospace;
+  text-align: center;
+  color: #400000;
+  outline-color: #400000;
+  outline-style: solid;
+  outline-width: 0.1em;
+  background-color: #FFF;
+}
+h2{
+  color:#400000;
+  font-family: "ZnikomitSC", monospace;
+}
+
+h3,h4{
+color: black;
+margin-left:1em;
+font-family: "ZNIKOMIT", monospace;
+}
+
+body {
+  font-family: sans-serif;
+  margin-left: 2em;
+}
+
+section:not([id]) {
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  border-bottom: 0.1em solid #A8A8A8;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+form{
+  font-family: "ZNIKOMIT", monospace;
+  margin-left: 2em;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+ 
+
+.button-submit {
+  font-family: "ZNIKOMIT", monospace;
+  display: inline-block;
+  padding: 6px;
+  outline-color: #E8E8E8 ;
+  outline-style: solid;
+  outline-width: 1px;
+  background-color: #FFF;
+  color: #303030;
+  border-radius: 0.15em;
+  text-decoration: none;
+  margin-left: 2em;
+  width: 80px;
+  text-align: center;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-nav:focus {
+  background-color: #FFF;
+  color: #C8C8C8 ;
+}
+
+
+.button-reset {
+  font-family: "ZNIKOMIT", monospace;
+  display: inline-block;
+  padding: 6px;
+  outline-color: #E8E8E8 ;
+  outline-style: solid;
+  outline-width: 1px;
+  background-color: #FFF;
+  color: #303030;
+  border-radius: 0.1em;
+  text-decoration: none;
+  margin-left: 0.5em;
+  width: 80px;
+  text-align: center;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.button-reset:hover, .button-nav:focus {
+  background-color: #FFF;
+  color: #C8C8C8 ;
+}
+
+
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+.link:link {
+    color: #A0A0A0;
+}
+
+.link:hover {
+    color: grey;
+}
+.link:visited {
+    color: #99CCCC;
+}
+
+
+
+
+#Heading1{
+    color: #303030;
+    width: 120px;
+    padding: 5px;
+    border: 1.5px solid #303030;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2em;
+    font-family: "ZNIKOMIT", monospace;
+    text-align: center;
+    font-size: 1.3em;
+    
+}
+#Heading2{
+    color: grey;
+    width: 110px;
+    padding: 4px;
+    border: 1.5px solid grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2.5em;
+    font-family: "ZNIKOMIT", monospace;
+    text-align: center;
+    font-size: 1.2em;
+}
+#Heading3{
+    width: 100px;
+    padding: 4px;
+    border: 1px solid grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3em;
+    font-family: "ZNIKOMIT", monospace;
+    text-align: center;
+}
+#Heading4{
+    width: 100px;
+    padding: 4px;
+    border: 1px solid grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 3em;
+    font-family: "ZNIKOMIT", monospace;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+p{
+    font-family: "ZNIKOMIT", monospace;
+    margin-left: 2em;
+    margin-right: 2em;
+
+  }
+#paragraph{
+}
+
+ul{
+    font-family: "ZNIKOMIT", monospace;
+    list-style-type: square;
+}
+ol{
+    font-family: "ZNIKOMIT", monospace;
+    margin-left: 1em;
+}
+.main-nav:active, .main-nav:focus{
+    background-color: white;
+    color: grey;
+   }
+ .nav-bar{
+    font-family: "ZNIKOMIT", monospace;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 9px;
+    background-color: #E8E8E8  ;
+    color: #303030;
+    width: 400px;
+   
+    border-radius: 0.15em;
+    margin-left: 0.8em;
+    text-decoration: none;
+
+}
+
+.nav-li{
+  float: left;
+}
+.nav-ul{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+
+}
+.nav-bar:hover{
+ color: #A8A8A8;
+ background-color: white;
+ outline-color: #A8A8A8;
+ outline-style:solid;
+}
+
+
+img{
+  margin-left: 2em;
+}
+#darkRed{
+  background-color: #600000 ;
+  color: #FFF;
+  width: 100px;
+  padding: 15px;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+#darkGrey{
+  background-color: #303030 ;
+  color: #FFF;
+  width: 100px;
+  padding: 15px;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+#lightGrey{
+  background-color: #E8E8E8  ;
+  color: #FFF;
+  width: 100px;
+  height: 30px;
+  padding: 15px;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+#white{
+  background-color: #FFF;
+  color: grey;
+  width: 96px;
+  padding: 15px;
+  outline-color:#E8E8E8;
+  outline-style: solid;
+  outline-width: 1px;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+#grid-a{
+  width:100%;
+  margin-left: 2em;
+  margin-right:1.5em;
+  padding:15px;
+  margin-bottom: 1.5em;
+  background-color: #E8E8E8;
+  display: block;
+
+}
+#grid-b{
+  text-decoration: none;
+  float:left;
+  width:350px;
+  height: 600px;
+  margin-left: 2em;
+  margin-right:1.5em;
+  padding:15px;
+  margin-bottom: 1.5em;
+  background-color: #E8E8E8;
+  display: block;
+
+}
+
+
+#grid-c{
+  text-decoration: none;
+  float: left;
+  width:410px;
+  height: 600px;
+  margin-left: 0.5em;
+  margin-right:1.5em;
+  padding:15px;
+  margin-bottom: 1.5em;
+  background-color: #E8E8E8;
+  display: block;
+
+}
+#grid-d{
+  text-decoration: none;
+  float:right;
+  width:350px;
+  height: 600px;
+  margin-left: 0.5em;
+  margin-right:1.5em;
+  padding:15px;
+  margin-bottom: 1.5em;
+  background-color: #E8E8E8;
+  display: block;
+}
+
+#grid-e{
+  width:100%;
+  margin-left: 2em;
+  margin-right:1.5em;
+  margin-top:42em;
+  padding:10px;
+  margin-bottom: 1.5em;
+  background-color: #E8E8E8;
+  display: block;
+
+
+}
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
