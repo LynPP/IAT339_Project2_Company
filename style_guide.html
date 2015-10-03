@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="utf-8">
-    <title>P01 - Style Guide Template</title>
+    <title>P02 - STYLE GUIDE</title>
 
     <link href="css/main.css" rel="stylesheet">
 
@@ -12,19 +12,19 @@
 
   <body>
 
-    <h1>P01 - Style Guide Template</h1>
+    <h1>P02 - STYLE GUIDE </h1>
 
-    <p>A template you can use to start building out your own style guides with.</p>
-
-
-    <nav>
+  <div class="grid">
+    <nav class="grid-col-3of10">
       
       <p>
-        On this page:
+        ON THIS PAGE:
       </p>
       <ul>
         <li>
+          <span>
           <a href="#interactive_elements">Interactive Elements</a>
+        </span>
         </li>
         <li>
           <a href="#text_elements">Text Elements</a>
@@ -34,84 +34,24 @@
         </li>
       </ul>
 
-      <p>Other pages:</p>
+      <p>OTHER PAGES:</p>
       <ul>
-        <li><a href="User-flows.html">User-flows</a>
+        <li><a href="User-flows.html">User-Flows</a>
         <li><a href="Style_guide.html">Style Guide</a>
         <li><a href="Citations.html">Citations</a>
+        <li><a href="Sitemap.html">Sitemap</a>
       </ul>
 
     </nav>
 
 
 
+   <div class="grid-col-7of10">
+
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
 
       <!-- Default Button styling section -->
-      <section>
-        <h2>Company updates/events</h2>
-      </section>
-
-      <section>
-        <h2>about the company</h2>
-      <section>
-        <h2>how to contact the business</h2>
-        <ul>
-         <li>Email:
-        </li>
-        <li>Phone:
-        </li>
-        <li>Facebook
-        </li>
-        <li>WeChat
-        </li>
-        <li>Twitter
-        </li>
-      </section>
-
-      </ul>
-      <section>
-        <h2>a multi-product listing</h2>
-      
-        <h3></h3>
-        <ul>
-          <li>
-          </li>
-          <li>
-          </li>
-          <li>
-          </li>
-          <li>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Product detailed view</h2>
-      
-        <p></p>
-        <img></img>
-      </section>
-
-      <section>
-        <h2>the entire process of purchasing a product</h2>
-        <p>
-        </p>
-        <ol>
-          <li>
-          </li>
-          <li>
-          </li>
-          <li>
-          </li>
-          <li>
-          </li>
-        </ol>
-      </section>
-      
-      <h2>Style Guide</h2>
-
       <section>
 
         <h2>Navigation Button</h2>
@@ -120,23 +60,86 @@
         <p>.button-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="button"&gt;ADD TO CART&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">Default Button</a>
+        <a class="button-nav" href="#">ADD TO CART</a>
 
       </section>
 
       <section>
         <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.links</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="links"&gt; LOGIN&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="links"&gt; CART (0)&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="links" href="#"> LOGIN</a>
+        <a class="links" href="#"> CART (0)</a>
+
+      </section>
+
+      <section>
+        <h2>Color Palette</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.colors</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;img scr="img/color.png" height="400" width="600" alt="colors1"&gt;</code>
+       
+
+        <h3>Rendered element:</h3>
+        <!-- <a class="links" href="#"> LOGIN</a> -->
+        <img src="img/color.png" height="400" width="600" alt="colors1">
+        
+
       </section>
 
       <section>
         <h2>Submit/Reset Buttons</h2>
+        <h3>CSS selector:</h3>
+          <p>.confirm-button</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="confirm-button"&gt;SUBMIT&lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="confirm-button" href="#">SUBMIT</a>
       </section>
 
       <section>
         <h2>Text Input Field</h2>
+        <h3>CSS selector:</h3>
+          <p>.text-input</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="text-input"&gt;Username&lt;/a&gt;</code>
+
+          <code>&lt;form&gt</code>
+          <code>USERNAME:</code>
+          <code>&lt;br&gt</code>
+          <code>&lt;input type="text" name="username"&gt;</code>
+          <code>&lt;br&gt</code>
+          <code>PASSWORD:</code>
+          <code>&lt;br&gt</code>
+          <code>&lt;input type="text" name="password"&gt</code>
+           <code>&lt;/form&gt</code>
+
+
+          <h3>Rendered element:</h3>
+          <form>
+            USERNAME:<br>
+          <input type="text" name="username">
+          <br>
+            PASSWORD:<br>
+          <input type="text" name="password">
+          </form>
+
       </section>
 
     </section>
@@ -146,31 +149,87 @@
 
     <!-- TEXT ELEMENTS SECTION // -->
     <section id="text_elements">
-      
 
       <section>
-        <h2>aprropriate means for the user to provide feedback on a product</h2>
-        <p>
-        </p>
-        <div>
-        </div>
-      </section>
-     
-      </section>
-      <section>
         <h2>Headings</h2>
+        <h3>CSS selector:</h3>
+          <p>.headings</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="headings1"&gt;HEADING 1 &lt;/a&gt;</code>
+          <code>&lt;a href="#" class="headings2"&gt;HEADING 2 &lt;/a&gt;</code>
+          <code>&lt;a href="#" class="headings3"&gt;HEADING 3 &lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="headings1" >HEADING 1</a>
+          <a class="headings2" >HEADING 2</a>
+          <a class="headings3" >HEADING 3</a>
+
+
       </section>
 
       <section>
         <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+          <p>.para</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;a href="#" class="paragraphs"&gt;paragraphs &lt;/a&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <a class="paragraphs">This company is timeless yet current, understated yet unique, which can entice our potential customers to purchase product.</a>
       </section>
 
       <section>
         <h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+          <p>.bulleted-lists</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ul&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="bulleted-lists"&gt;SUPER &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="bulleted-lists"&gt;RETROSUPERFUTURE &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="bulleted-lists"&gt;SPECIALS &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="bulleted-lists"&gt;GENTLE MONSTERS &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;/ul&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <ul>
+          <li><a class="bulleted-lists" href="#">SUPER</a></li>
+          <li><a class="bulleted-lists" href="#">RETROSUPERFUTURE</a></li>
+          <li><a class="bulleted-lists" href="#">SPECIALS</a></li>
+          <li><a class="bulleted-lists" href="#">GENTLE MONSTERS</a></li>
+          </ul>
       </section>
 
       <section>
         <h2>Numbered Lists</h2>
+        <h3>CSS selector:</h3>
+          <p>.numbered-lists</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ol&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;CLASSIC &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;FLAP TOP &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;/ol&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <ol>
+          <li><a class="numbered-lists" href="#">CLASSIC</a></li>
+          <li><a class="numbered-lists" href="#">FLAP TOP</a></li>
+          </ol>
       </section>
 
     </section>
@@ -183,17 +242,165 @@
 
       <section>
         <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.selected</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;&lt;strong&gt; MENU: &lt;/strong&gt; &lt;/p&gt;</code>
+        <code>&lt;a href="#" class="selected" &gt;NEW IN&lt;/a&gt;</code>
+        <code>&lt;a href="#"class="selected" &gt;SUNGLASSES&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <P><strong> MENU:</strong></P>
+        <a class="selected" href="#"> NEW IN</a>
+        <a class="selected" href="#"> SUNGLASSES</a>
+
       </section>
 
       <section>
         <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+          <p>.product-listing</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;ul&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;NEW IN &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;SUNGLASSES &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;ol&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;ALL PRODUCTS&lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+           <code>&lt;a href="#" class="numbered-lists"&gt;EXCLUSIVE&lt;/a&gt;</code>
+           <code>&lt;/li&gt;</code>
+           <code>&lt;li&gt;</code>
+           <code>&lt;a href="#" class="numbered-lists"&gt;COLLABORATION&lt;/a&gt;</code>
+           <code>&lt;/li&gt;</code>
+          <code>&lt;/ol&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;OPTICALS &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;ol&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;ALL PRODUCTS&lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>      
+          <code>&lt;/ol&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;BRANDS &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;ol&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;SUPER&lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+           <code>&lt;a href="#" class="numbered-lists"&gt;RETROSUPERFUTRUE&lt;/a&gt;</code>
+           <code>&lt;/li&gt;</code>
+           <code>&lt;li&gt;</code>
+           <code>&lt;a href="#" class="numbered-lists"&gt;SPECIALS&lt;/a&gt;</code>
+           <code>&lt;/li&gt;</code>
+          <code>&lt;li&gt;</code>
+           <code>&lt;a href="#" class="numbered-lists"&gt;GENTLE MONSTERS&lt;/a&gt;</code>
+           <code>&lt;/li&gt;</code>
+          <code>&lt;/ol&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;ACCESSORIES &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+          <code>&lt;ol&gt;</code>
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;BAGS&lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>      
+          <code>&lt;/ol&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;GIFT CARD &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;ORDER &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;CUSTOMERCARE &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;LOGIN &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+
+          <code>&lt;li&gt;</code>
+          <code>&lt;a href="#" class="numbered-lists"&gt;CART(0) &lt;/a&gt;</code>
+          <code>&lt;/li&gt;</code>
+        
+       
+          <code>&lt;/ul&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <ul>
+          <li><a class="numbered-lists" href="#">NEW IN </a></li>
+          <li><a class="numbered-lists" href="#">SUNGLASSES</a></li>
+            <ol>
+              <li>
+                <a class="numbered-lists" href="#">ALL PRODUCTS </a>
+              </li>
+            <li>
+              <a class="numbered-lists" href="#">EXCLUSIVE </a>
+            </li>
+            <li>
+              <a class="numbered-lists" href="#">COLLABORATION</a>
+            </li>
+          </ol>
+          <li><a class="numbered-lists" href="#">OPTICALS</a>
+            <ol>
+            <li>
+              <a class="numbered-lists" href="#">ALL PRODUCTS </a>
+            </li>
+          </ol>
+          <li><a class="numbered-lists" href="#">BRANDS</a></li>
+            <ol>
+            <li>
+              <a class="numbered-lists" href="#">SUPER </a>
+            </li>
+            <li>
+              <a class="numbered-lists" href="#"> RETROSUPERFUTURE </a>
+            </li>
+            <li>
+               <a class="numbered-lists" href="#"> SPECIALS </a>
+            </li>
+            <li>
+              <a class="numbered-lists" href="#"> GENTLE MONSTERS </a>
+            </li>
+          </ol>
+          <li><a class="numbered-lists" href="#">ACCESSORIES</a></li>
+              <ol>
+              <li>
+                <a class="numbered-lists" href="#">BAGS </a>
+              </li>
+          </ol>
+          <li><a class="numbered-lists" href="#">GIFT CARD</a></li>
+          <li><a class="numbered-lists" href="#">ORDER</a></li>
+          <li><a class="numbered-lists" href="#">CUSTOMERCARE</a></li>
+          <li><a class="numbered-lists" href="#">LOGIN</a></li>
+          <li><a class="numbered-lists" href="#">CART(0)</a></li>
+          </ul>
+
+
       </section>
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
 
-
-
+  </div>
+  </div>
 
   </body>
 </html>
