@@ -136,12 +136,12 @@ img {
 
 /* Styling for the navigation button */
 .button-nav {
-  color: #eb555a;
+  color: white;
   display: inline-block;
   padding:#eb555a;
-  border-color: #eb555a;
   border-style: solid;
-  background-color: white;
+  border-color:#eb555a;
+  background-color: #eb555a;
   border-radius: 0.25em;
   font-weight: bold;
   text-decoration: none;
@@ -150,14 +150,17 @@ img {
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #eb555a;
-  color: white;
+  background-color: white;
+  border-color: #eb555a;
+  color: #eb555a;
 }
 
 .links {
   display: inline-block;
   padding: 1em;
-  color: black;
+  color: white;
+  background-color: black;
+  border-radius: 0.25em;
   font-weight: bold;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
@@ -171,10 +174,10 @@ img {
 .confirm-button {
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: #eb555a;
+  color: white;
   border-color: #eb555a;
   border-style: solid;
-  background-color: white;
+  background-color: #eb555a;
   border-radius: 0.25em;
   font-weight: bold;
   text-decoration: none;
@@ -184,8 +187,8 @@ img {
 }
 
 .confirm-button:hover, .confirm-button:focus {
-  background-color: #eb555a;
-  color: white;
+  background-color: white;
+  color: #eb555a;
 
 }
 
@@ -236,13 +239,14 @@ img {
 
 .bulleted-lists{
   text-decoration: none;
-  color:#e4c374;
+  color:black;
   font-size: 1em;
 }
 
 
 .bulleted-lists:hover {
   text-decoration: underline;
+  color:#eb555a;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -254,7 +258,7 @@ img {
 
 .numbered-lists:hover {
   font-weight: bold;
-  color: #e4c374;
+  color: #eb555a;
   font-size: 1.1em;
 }
 
@@ -273,7 +277,7 @@ img {
 }
 
 .selected:hover, .selected:focus {
-  color:#e4c374;
+  color:#eb555a;
 }
 
 
