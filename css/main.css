@@ -136,10 +136,10 @@ img {
 
 /* Styling for the navigation button */
 .button-nav {
+  color: #eb555a;
   display: inline-block;
-  padding: 0.5em 0.75em;
-  color: #e4c374;
-  border-color: #e4c374;
+  padding:#eb555a;
+  border-color: #eb555a;
   border-style: solid;
   background-color: white;
   border-radius: 0.25em;
@@ -150,7 +150,7 @@ img {
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: #e4c374;
+  background-color: #eb555a;
   color: white;
 }
 
@@ -165,14 +165,14 @@ img {
 }
 
 .links:hover, .links:focus {
-  color: #e4c374;
+  color: #eb555a;
 }
 
 .confirm-button {
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: #e4c374;
-  border-color: #e4c374;
+  color: #eb555a;
+  border-color: #eb555a;
   border-style: solid;
   background-color: white;
   border-radius: 0.25em;
@@ -184,7 +184,7 @@ img {
 }
 
 .confirm-button:hover, .confirm-button:focus {
-  background-color: #e4c374;
+  background-color: #eb555a;
   color: white;
 
 }
