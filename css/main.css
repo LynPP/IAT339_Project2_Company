@@ -48,6 +48,7 @@ nav {
   display: block;
   margin-bottom: 1em;
   padding-bottom: 1em;
+  list-style-type: none;
 
 }
 
@@ -134,7 +135,7 @@ img {
 .button-nav {
   color: white;
   display: inline-block;
-  padding:#eb555a;
+  padding: 0.5em 0.75em;
   border-style: solid;
   border-color:#eb555a;
   background-color: #eb555a;
@@ -153,7 +154,7 @@ img {
 
 .button {
   display: inline-block;
-  padding: 1em;
+  padding: 0.5em 0.75em;
   color: white;
  
   border-radius: 0.25em;
@@ -245,16 +246,11 @@ img {
 }
 
 .bulleted-lists{
- color:black;
+  color:black;
   list-style-type: square;
   padding:0.4em;
-
-
   text-decoration: none;
- 
   font-size: 1em;
- 
-
 
 }
 
@@ -263,9 +259,6 @@ img {
   
   color:#eb555a;
   font-weight: bold;
-
-
-
 }
 
 .numbered-lists{
@@ -274,11 +267,7 @@ img {
 
 }
 
-.numbered-lists:hover {
-  font-weight: bold;
-  color: #eb555a;
- 
-}
+
 
 /* 
   COMBINED ELEMENTS -------------------

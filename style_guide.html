@@ -52,6 +52,23 @@
     <section id="interactive_elements">
 
       <!-- Default Button styling section -->
+
+      <section>
+
+        <h2>BRANDNAME</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.brand</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;img src="img/brandname.jpg" height="600" width="800" alt="bg"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <img src="img/brandname.jpg" height="600" width="800" alt="brandname">
+      </section>
+
+    </section>
+
       <section>
 
         <h2>Navigation Button</h2>
@@ -63,7 +80,7 @@
         <code>&lt;a href="#" class="button"&gt;ADD TO CART&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        </br>
+
         <a class="button-nav" href="#">ADD TO CART</a>
         <a class="button" href="#"> LOGIN</a>
         <a class="button" href="#"> BAG (0)</a>
@@ -76,17 +93,12 @@
         <h3>CSS selector:</h3>
         <p>.link</p>
          <h3>Sample code:</h3>
-         <code>&lt;p &gt;  &lt;b&gt;  &lt;a class="link" href="default.asp" target="_blank"&gt;personal protfolio  &lt;/a&gt;  &lt;/b&gt; &lt;/p &gt;</code>
+         <code>&lt;p&gt; &lt;strong&gt; &lt;a class="link" href="default.asp" target="_blank"&gt;personal protfolio  &lt;/a&gt;  &lt;/strong&gt; &lt;/p&gt;</code>
 
           <h3>Rendered element:</h3>
-          </br>
-          <p><b><a class="link" href="style_guide.html" target="_blank" >STYLE GUIDE</a></b></p>
+          <p><a class="link" href="style_guide.html" target="_blank"><strong>STYLE GUIDE</strong></a></p>
       </section>
-
-
-     
-
-      </section>
+    </section>
 
       <section>
         <h2>Color Palette</h2>
@@ -99,9 +111,8 @@
        
 
         <h3>Rendered element:</h3>
-        </br>
         <!-- <a class="links" href="#"> LOGIN</a> -->
-        <img src="img/color pallet.png" height="350" width="500" alt="colors1">
+        <img src="img/color_palette.png" height="350" width="500" alt="colors1">
         
 
       </section>
@@ -115,7 +126,6 @@
           <code>&lt;a href="#" class="confirm-button"&gt;SUBMIT&lt;/a&gt;</code>
 
           <h3>Rendered element:</h3>
-          </br>
           <a class="confirm-button" href="#">SUBMIT</a>
       </section>
 
@@ -127,15 +137,12 @@
           <h3>Sample code:</h3>
           <code>&lt;a href="#" class="text-input"&gt;Username&lt;/a&gt;</code>
 
-          <code>&lt;form&gt</code>
+          <code>&lt;form&gt;</code>
           <code>USERNAME:</code>
-          <code>&lt;br&gt</code>
           <code>&lt;input type="text" name="username"&gt;</code>
-          <code>&lt;br&gt</code>
           <code>PASSWORD:</code>
-          <code>&lt;br&gt</code>
-          <code>&lt;input type="text" name="password"&gt</code>
-           <code>&lt;/form&gt</code>
+          <code>&lt;input type="text" name="password"&gt;</code>
+           <code>&lt;/form&gt;</code>
 
 
           <h3>Rendered element:</h3>
@@ -149,7 +156,7 @@
 
       </section>
 
-    </section>
+
     <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
@@ -198,12 +205,13 @@
           <code>&lt;/ul&gt;</code>
 
           <h3>Rendered element:</h3>
+
           <ul class="bulleted-lists">
-          <li>RAY BAN</li>
-          <li>PRADA</li>
-          <li>PERSOL</li>
-          <li>RETROSUPERFUTURE</li>
-          <li>GENTLE MONSTERS</li>
+            <li class="bulleted-lists">RAY BAN</li>
+            <li class="bulleted-lists">PRADA</li>
+            <li class="bulleted-lists">PERSOL</li>
+            <li class="bulleted-lists">RETROSUPERFUTURE</li>
+            <li class="bulleted-lists">GENTLE MONSTERS</li>
           </ul>
       </section>
 
@@ -245,8 +253,8 @@
 
         <h3>Rendered element:</h3>
         <P><strong> MENU:</strong></P>
-        <a class="selected" href="#"> NEW IN</a>
-        <a class="selected" href="#"> SUNGLASSES</a>
+        <a class="selected" href="#"> BRANDS</a>
+        <a class="selected" href="#"> SERVICES</a>
 
       </section>
 
@@ -264,39 +272,74 @@
           <code>&lt;/ul&gt;</code>
 
           <h3>Rendered element:</h3>
-          <ol class="numbered-lists" href="#">
-            <li><a >NEW IN </a></li>
-            <li>SUNGLASSES</li>
-              <ol class="numbered-lists" href="#">
-                <li>ALL PRODUCTS</li>
-                <li>EXCLUSIVE</li>
-                <li>COLLABORATION</li>
-              </ol>
-            <li>OPTICALS
-              <ol class="numbered-lists" href="#">
-                <li>
-                  ALL PRODUCTS 
-                </li>
-              </ol>
-            <li>BRANDS</li>
-              <ol class="numbered-lists" href="#">
-                <li>SUPER</li>
+          <ul class="numbered-lists" >
+            <li>BRAND
+              <ul class="numbered-lists" >
+                <li>RAY BAN</li>
+                <li>PRADA</li>
+                <li>PERSOL</li>
+                <li>GENTLE MONSTER</li>
                 <li>RETROSUPERFUTURE</li>
-                <li>SPECIALS</li>
-                <li>GENTLE MONSTERS</li>
-              </ol>
-            <li>ACCESSORIES</li>
-              <ol class="numbered-lists" href="#">
-                <li>BAGS</li>
-              </ol>
-            <li>GIFT CARD</li>
-            <li>ORDER</li>
-            <li>CUSTOMERCARE</li>
-            <li>LOGIN</li>
-            <li>CART(0)</li>
-          </ol>
+              </ul>
+            </li>
+            <li>SERVICE
+              <ul class="numbered-lists" >
+                <li>INQUIRY</li>
+                <li>DELIVERY</li>
+                <li>REFUND</li>
+              </ul>
+             </li>
 
+            <li>EVENT
+              <ul class="numbered-lists" >
+                <li>MAGAZINE</li>
+                <li>NEWS</li>
+              </ul>
+            </li>
 
+            <li>CONTACT
+              <ul class="numbered-lists" >
+                <li>ABOUT US
+                  <ul>
+                    <li>STAFF</li>
+                    <li>LOCATION</li>
+                  </ul>
+                </li>
+
+                <li>CONTACT US
+                  <ul>
+                    <li>EMAIL</li>
+                    <li>PHONE</li>
+                    <li>PRIVACY</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+              <li>LOGIN
+               <ul class="numbered-lists" >
+                <li>REGISTER</li>
+                <li>HISTORY</li>
+               </ul>
+              </li>
+
+          </ul>
+
+      </section>
+
+      <section>
+
+        <h2>IMAGE EXAMPLE</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.img</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;img src="img/bg.jpg" height="600" width="800" alt="bg"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <img src="img/bg.jpg" height="600" width="800" alt="bg">
+        <img src="img/bg2.jpg" height="600" width="800" alt="bg">
       </section>
 
     </section>
