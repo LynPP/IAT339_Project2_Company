@@ -216,6 +216,54 @@ img {
   TEXT ELEMENTS -------------------
 */
 
+.product-list {
+  display: inline-block;
+  margin: 2rem 0; 
+  text-align: center;
+  padding: 3em;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.productname {
+  font-weight: bold;
+  padding-top: 4em;
+}
+
+.productseries {
+  font-size: 0.9em;
+  margin-top: -1em; 
+}
+
+.productprice {
+  font-size: 0.9em;
+  margin-top: -1em; 
+}
+
+.addtobag {
+  margin-top: 4em;
+  color: white;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border-style: solid;
+  border-color:#eb555a;
+  background-color: #eb555a;
+  border-radius: 0.25em;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.addtobag:hover, .addtobag:focus {
+  background-color: white;
+  border-color: #eb555a;
+  color: #eb555a;
+}
+
+
+
+
 .headings1 {
   display: inline-block;
   padding: 0.5em 0.5em;
