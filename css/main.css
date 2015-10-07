@@ -131,6 +131,12 @@ img {
   INTERACTIVE ELEMENTS -------------------
 */
 
+.brandnames {
+  font-family: "Fontastique", sans-serif;
+  font-size: 3rem;
+  font-weight: thin ;
+}
+
 /* Styling for the navigation button */
 .button-nav {
   color: white;
